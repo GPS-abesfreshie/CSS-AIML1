@@ -1,0 +1,22 @@
+.container{
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap:20px;
+    
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+.item2{
+    order: -1;
+}
